@@ -15,22 +15,6 @@
     </section>
     <section class="parts parts2">
       <h3 class="title">技术背景</h3>
-      <!-- <svg class="mytec" xmlns="http://www.w3.org/2000/svg" version="1.1">
-        <circle cx="232" cy="80" r="35" stroke="#12fdc9"
-        stroke-width="1" fill="none" />
-        <text x="200" y="85" fill="#363c42">HTML[5]</text>
-        <text x="100" y="15" fill="#363c42">SVG</text>
-        <text x="100" y="45" fill="#363c42">Canvas</text>
-        <text x="300" y="15" fill="#363c42">WebSocket</text>
-        <text x="300" y="45" fill="#363c42">WebStorage</text>
-        <text x="300" y="125" fill="#363c42">drag&drap</text>
-        <polyline points="100,20 160,20 180,80 197,80" style="fill:none;stroke:#12fdc9;stroke-width:1" troke-linejoin="round"/>
-        <polyline points="100,50 160,50 180,80 197,80" style="fill:none;stroke:#12fdc9;stroke-width:1" troke-linejoin="round"/>
-        <polyline points="100,130 160,130 180,80 197,80" style="fill:none;stroke:#12fdc9;stroke-width:1" troke-linejoin="round"/>
-        <polyline points="267,80 280,80 300,20 390,20" style="fill:none;stroke:#12fdc9;stroke-width:1" troke-linejoin="round"/>
-        <polyline points="267,80 280,80 300,50 390,50" style="fill:none;stroke:#12fdc9;stroke-width:1" troke-linejoin="round"/>
-        <polyline points="267,80 280,80 300,130 390,130" style="fill:none;stroke:#12fdc9;stroke-width:1" troke-linejoin="round"/>
-      </svg> -->
       <ul>
         <li class="item_li">
           <div class="imgWrap">
