@@ -44,7 +44,7 @@
           </section>  
         </li>        
         <li class="item_li">
-          <div class="imgWrap" style="width:180px;">
+          <div class="imgWrap">
             <svg class="icon" aria-hidden="true">
               <use xlink:href="#icon-js"></use>
             </svg>               
@@ -64,7 +64,7 @@
           </section>
         </li>
         <li class="item_li">
-          <div class="imgWrap" style="width:180px;">
+          <div class="imgWrap">
             <svg class="icon" aria-hidden="true">
               <use xlink:href="#icon-gongju1"></use>
             </svg>             
@@ -188,7 +188,6 @@ aside.item_aside{
     color: #8c7d7d;
 }
 .item_li > .imgWrap{
-  width: 100px;
   height: 100px;
   text-align: left;
   box-sizing: border-box;
