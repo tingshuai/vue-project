@@ -16,15 +16,15 @@
     </section>
     <section class="part">
       <h3 class="title">技术背景</h3>
-      <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+      <svg @drag="drag" class="circle" xmlns="http://www.w3.org/2000/svg" version="1.1">
         <circle cx="100" cy="50" r="40" stroke="black"
         stroke-width="2" fill="red" />
       </svg>
-      <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+      <svg class="circle" xmlns="http://www.w3.org/2000/svg" version="1.1">
         <circle cx="100" cy="50" r="40" stroke="black"
         stroke-width="2" fill="red" />
       </svg>
-      <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+      <svg class="circle" xmlns="http://www.w3.org/2000/svg" version="1.1">
         <circle cx="100" cy="50" r="40" stroke="black"
         stroke-width="2" fill="red" />
       </svg>
@@ -52,12 +52,19 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'app',
-  components: {
-    HelloWorld
+  data(){
+    return {
+      
+      }
+  },
+  mounted(){
+
+  },
+  methods:{
+  
   }
 }
 </script>
@@ -70,6 +77,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  border:1px solid red;
 }
 *{
   margin: 0;
