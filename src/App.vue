@@ -4,11 +4,11 @@
       <aside class="self left_1">
         <div class="name">姓名：乔飞</div> 
         <div class="goal">求职意向：Web前端攻城狮</div>
-        <div class="goal">宅男 好奇心 技术控 老鲜肉</div>
+        <div class="goal">标签：宅男 好奇心 技术控 叔中鲜 天秤座</div>
       </aside>
       <aside class="self center_1"><img src="https://avatars2.githubusercontent.com/u/23158246?s=40&v=4" alt="头像"></aside>
       <aside class="self right_1">
-        <div>生辰八字：1993.10.08</div>
+        <div>生日：1993.10.08</div>
         <div>联系方式：18058641352</div>
         <div>邮箱：1085370797@qq.com</div>
       </aside>
@@ -17,11 +17,6 @@
       <h3 class="title">技术背景</h3>
       <ul>
         <li class="item_li">
-          <div class="imgWrap">
-            <svg class="icon" aria-hidden="true">
-              <use xlink:href="#icon-html"></use>
-            </svg>
-          </div>
           <section>
             <aside class="item_aside">SVG</aside>
             <aside class="item_aside">Canvas</aside>
@@ -29,6 +24,11 @@
             <aside class="item_aside">WebStorage</aside>
             <aside class="item_aside">drag&drap</aside>
           </section>
+          <div class="imgWrap">
+            <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-html"></use>
+            </svg>
+          </div>
         </li>
         <li class="item_li">
           <div class="imgWrap" style="">
@@ -44,11 +44,6 @@
           </section>  
         </li>        
         <li class="item_li">
-          <div class="imgWrap">
-            <svg class="icon" aria-hidden="true">
-              <use xlink:href="#icon-js"></use>
-            </svg>               
-          </div>
           <section>
             <aside class="item_aside">Vue.js</aside>
             <aside class="item_aside">JQuery</aside>
@@ -62,6 +57,11 @@
             <aside class="item_aside">vux</aside>
             <aside class="item_aside">Echarts</aside>
           </section>
+          <div class="imgWrap">
+            <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-js"></use>
+            </svg>               
+          </div>
         </li>
         <li class="item_li">
           <div class="imgWrap">
@@ -70,38 +70,89 @@
             </svg>             
           </div>
           <section>
-            <aside class="item_aside">Vue.js</aside>
-            <aside class="item_aside">JQuery</aside>
-            <aside class="item_aside">Es6</aside>
-            <aside class="item_aside">WebPack</aside>
-            <aside class="item_aside">vue-cli</aside>
-            <aside class="item_aside">Promise</aside>
-            <aside class="item_aside">Ajax</aside>
-            <aside class="item_aside">ElementUi</aside>
-            <aside class="item_aside">IviewUi</aside>
-            <aside class="item_aside">vux</aside>
-            <aside class="item_aside">Echarts</aside>
+            <aside class="item_aside">weTouch</aside>
+            <aside class="item_aside">Dclude</aside>
+            <aside class="item_aside">GitHub</aside>
+            <aside class="item_aside">Svn</aside>
+            <aside class="item_aside">http</aside>
+            <aside class="item_aside">VScode</aside>
+            <aside class="item_aside">Sublime</aside>
           </section>
         </li>           
       </ul>
     </section>
-    <section class="parts">
+    <section class="parts parts3">
       <h3 class="title">工作经历</h3>
-      <div class="exprience exprience1">
-        <aside class="left"></aside>
-        <aside class="right"></aside>
-      </div>
-      <div class="exprience exprience2">
-        <aside class="left"></aside>
-        <aside class="right"></aside>
-      </div>
-      <div class="exprience exprience3">
-        <aside class="left"></aside>
-        <aside class="right"></aside>
-      </div>
+      <section class="sp">
+        <div class="exprience exprience1">
+          <aside class="left">2018.5-至今</aside>
+          <aside class="right">
+            <div>公司：浙江飞戎机器人技术有限公司</div>
+            <div>工作描述：主要负责移动端开发。用weTouch开发微信小程序和app项目。</div>
+          </aside>
+        </div>
+        <div class="branch">
+            <aside class="dotted1">
+              <i class="dot"></i>
+              <span class="h"></span>
+            </aside>
+            <aside class="dotted2">
+              <i class="dot"></i>
+              <span class="h"></span>
+            </aside>            
+        </div>
+        <div class="exprience exprience2">
+          <aside class="left">2016.10-2018.5</aside>
+          <aside class="right">
+            <div>公司：浙江鸿程计算机系统有限公司</div>
+            <div>工作描述：主要负责浙江政务服务系统，浙江最多跑一次系统开发。使用vue + webpack + elementUi构建开发。
+            </div>
+          </aside>
+        </div>
+        <div class="exprience exprience3">
+          <aside class="left">2015.10-2016.10</aside>
+          <aside class="right">
+            <div>公司：艾括网络科技有限公司</div>
+            <div>工作描述：主要负责画室网站开发。使用JQuery + JQueryUI</div>
+          </aside>
+        </div>
+        <div class="branch branch2">
+            <aside class="dotted1">
+              <i class="dot"></i>
+              <span class="h"></span>
+            </aside>
+            <aside class="dotted2">
+              <i class="dot"></i>
+              <span class="h"></span>
+            </aside>            
+        </div>        
+        <div class="exprience exprience4">
+          <aside class="left">2015.10-2016.10</aside>
+          <aside class="right">
+            <div>公司：艾括网络科技有限公司</div>
+            <div>工作描述：主要负责画室网站开发。使用JQuery + JQueryUI</div>
+          </aside>
+        </div>
+      </section>
+      <div class="line"></div>
     </section>
-    <section class="parts">
-      <h3 class="title">自我评价</h3>
+    <section class="parts parts2 parts4">
+      <h3 class="title">个人简介</h3>
+      <ul>
+        <li class="item_li">
+          <h4>工作简介：</h4>
+          <article>
+            刚入行时主要用JQuery + JQueryUI进行网站开发，第二家公司开始用elementUI，iviewUI，vux做基础UI，用Vue + webpack + vue-router + axios(vue全家桶) 构建开发web应用；用svn进行代码管理和团队协作。
+            后来用weTouch开发微信小程序和app。也曾尝试过DClude 5+进行app开发。用GitHub托管代码和团队协作。对node.js 和 mongodb 有一定了解。
+          </article>
+        </li>
+        <li class="item_li">
+          <h4>性格分析：</h4>
+          <article>
+            乐观、真诚；富有协作精神。可柔情似水，亦可刚毅似铁。爱好爬山，游泳，台球。用心做一个有颜值，有故事，有情调的男人。
+          </article>          
+        </li>
+      </ul>
     </section>
   </div>
 </template>
@@ -116,11 +167,10 @@ export default {
       }
   },
   mounted(){
-
-  },
+    },
   methods:{
-  
-  }
+    
+    }
 }
 </script>
 
@@ -132,11 +182,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-  width: 80%;
-  overflow: auto;
+  /* width: 80%; */
   margin: 0 auto;
-  border: 1px solid red;
-  max-width: 1000px;
+  /* max-width: 1000px; */
   -webkit-user-select:none;
   -moz-user-select:none;
   -ms-user-select:none;
@@ -145,12 +193,16 @@ export default {
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: '\u5fae\u8f6f\u96c5\u9ed1'
 }
 section.parts{
   display: flex;
+  margin:50px 0;
 }
 .title{
   width: 100%;
+  margin: 20px 0;
 }
 li{
   list-style: none;
@@ -159,6 +211,8 @@ li{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
 }
 .parts2{
   flex-wrap: wrap;
@@ -167,17 +221,42 @@ li{
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
   padding: 0 5%;
+  position: relative;
+}
+.parts2 > ul::after{
+    content: '';
+    display: inline-block;
+    height: 89%;
+    position: absolute;
+    right: 50%;
+    top: 17px;
+    border-left: 1px solid #e2e2e2;
+}
+.parts3 > .line{
+    display: inline-block;
+    bottom: -20px;
+    position: absolute;
+    right: 50%;
+    top: 47px;
+    border-left: 1px solid #e2e2e2;
 }
 .item_li{
-  width: 40%;
+  width: 50%;
   display: flex;
+}
+ul>.item_li:nth-child(2n+1){
+  padding-right: 4%;
+}
+ul>.item_li:nth-child(2n+2){
+  padding-left: 4%;
 }
 .item_li > section{
   flex-grow:1;
   text-align: left;
+  padding: 8px 0;
 }
 aside.item_aside{
     display: inline-block;
@@ -186,11 +265,16 @@ aside.item_aside{
     border-radius: 3px;
     margin: 5px 5px;
     color: #8c7d7d;
+    font-size: 14px;
 }
 .item_li > .imgWrap{
   height: 100px;
   text-align: left;
   box-sizing: border-box;
+  font-size: 55px;
+}
+ul > li.item_li:nth-child(2n-1) > section{
+  text-align: right;
 }
 .imgWrap>img{
   width: 66px;
@@ -198,6 +282,9 @@ aside.item_aside{
 }
 .mytec{
   width: 50%;
+}
+.self{
+    color: #505050;
 }
 .center_1{
   width: 120px;
@@ -222,14 +309,87 @@ aside.item_aside{
   flex-grow:1;
   line-height: 25px;
   font-size: 14px;
+  width: 1%;
 }
 .left_1 > div{
   text-align: right;
-  padding-right: 10%;
+  padding-right: 40px;
 }
 .right_1 > div{
-  padding-left: 10%;
+  padding-left: 40px;
   text-align: left;
+}
+.exprience{
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #e2e2e2;
+  border-radius: 7px;
+  color: #333;
+  line-height: 25px;
+}
+.sp .branch{
+    width: 10%;
+    height: 150px;
+    position: relative;
+}
+.exprience2{
+  top: 60px!important;
+}
+.exprience3{
+  bottom: 20px!important;
+}
+.exprience4{
+  top: 60px!important;
+}
+.branch .dotted1{
+  width: 50%;
+  border-top: 1px solid #e2e2e2;
+  margin-top: 50%;
+}
+.branch .dotted2{
+  width: 50%;
+  border-top: 1px solid #e2e2e2;
+  margin-top: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 10%;
+}
+.branch2 .dotted1{
+  margin-top: 40%;
+}
+.parts .sp{ 
+  width: 100%;
+  display: flex;
+  padding: 0 5%;
+  flex-wrap: wrap;
+  text-align: left;
+  justify-content: space-between;
+  position: relative;
+  align-items: start;
+}
+.parts .exprience{
+  width: 45%;
+  color: #7d7d7d;
+  font-size: 14px;
+  margin: 20px 0;
+  position: relative;
+}
+.parts4 .item_li{
+  flex-wrap: wrap;
+  text-align: left;
+}
+.item_li h4{
+    width: 100%;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 35px;
+}
+.item_li article{
+    width: 100%;
+    font-size: 14px;
+    color: #7d7d7d;
+    text-align: justify;
+    line-height: 25px;
 }
 </style>
 <style>
