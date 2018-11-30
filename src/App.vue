@@ -1,19 +1,20 @@
 <template>
   <div id="app">
-    <section class="parts">
+    <section class="parts parts1">
       <aside class="self left_1">
         <div class="name">姓名：乔飞</div> 
         <div class="goal">求职意向：Web前端攻城狮</div>
         <div class="goal">标签：宅男 好奇心 技术控 叔中鲜 天秤座</div>
       </aside>
-      <aside class="self center_1"><img src="https://avatars2.githubusercontent.com/u/23158246?s=40&v=4" alt="头像"></aside>
+      <aside class="self center_1"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAC9ALwDASIAAhEBAxEB/8QAHAABAAIDAQEBAAAAAAAAAAAAAAYHAgQFAQMI/8QAOhAAAQMDAgUDAwMDAgQHAAAAAQACAwQFEQYhBxIxQVETYXGBkaEUIrEVMsEjM0JS0eEWU2JygrLx/8QAGQEBAAMBAQAAAAAAAAAAAAAAAAECAwQF/8QAIxEAAgIDAAMAAgMBAAAAAAAAAAECEQMhMQQSQSJxMlFhE//aAAwDAQACEQMRAD8A/UaIi8YuEREBjlOqFRLWesbdpeBjakSTVMoJjgixkgbEknYDO2T3U/slJt0iWkKG6t11bNOyCnmElTWuAIp4sEgHoSTsM9h1PhRocXaYAiptNZT5B9N2Q8E42yNjjOOihVlmMdDctS18RrK2SYlvMOfBJ3PsMnGewGyr7f0bQwu9lp6I1zHqeqqaQ0UlFUwMEnK5/OHtJxnOAQQcZBHddi7arsdqBZXXSma9uxaHczgfGBkg/KouxWq8XKWqqRUSUUVUT60oJYZRnOABgkZ87KR0OkbVSgGaJ9S/qXSuOCfgYH8qU21wu8Kv/CV1XFmwQZFO2rqiOnJGAD9SR/C554uxE/6diriz/mLgP4Cwp6CkpwBBTQx47tjAP3wthpwMAADwAppkrHFfDKDi/bC4Crt1fCO5ADsfkLvWviJpq4uDG3BsLzgBtQ0xnPydvyo5JFG8OEjI3g9Q5oI/IXMrdO2qrY4SUcbHn/ii/YR9tvwlNB4ost6CWOaISQyCRjxkOaQQR5BGxW122VC09ovNgldPpm6SBmcmmkIwfYg5B+wKklk4pPp5hS6qoJKWcbGeJpLD7lp3A9wSEsylha2i1sLJcq2XOjucRqKCpiqYj0dE4EfBxuD7FdMoZNUZIiKCAiIgCIiAIiIAiIgMVUXGqmpopaC6MrI4K+nOI4XDJlGc5A7YOSSdiCR1Uw1zqqm0xbnTuxLVyZEEGccx7k+ANsn6DcqsrXaqq71z73qWQzVMpD44njAaOoyOwHZn1Kl70jfFB3Z0NP1c95tjn3KjjYHHEYLciQY3IB6brpU9PFTQtip4mRxNzhrQABnrsvt/+YRSlR0Nhvb22REUkBERAEREAXwrKWnrIXRVUMc7D/wvGcfB6j6L7ogIudOVVsqXVOm7lNRy5z6ZcQD7ZGxHsQV16PiHqG0YZqC0iqYNjNEOUkedgQfwuimSARnY9R2VfT+mH6vqN638V9PzgCp/VUr+hEseQPqCVL7Pd6C80n6q21cdTEDgmM5IPgjqD7FVldqaibRVFRU0EVT6bS8tEYBOO2cLPgbTPM93uDQIqSYsibC12cOBcSSOoABABPXJVbadMxyYklaLhREUnOEREAREQHnZcq+XOms1snr6x5bDC0k+SewA7knAA911VSvEW6P1PqmKw0Lz+hpHc9Q8HYuHU++AcD3J8KW6L44e7OZbW1Oqb3Nf7wMxB2KeE7tAB2AHgfk5KlROS4nclYU8UcELIoIwyOMBjWjoAOizUpUjs/QREUkBERAEREAREQBERAEREAIBDgQCDsQRkEeFGaGtk0NqdtXDzmzVhDJ4xuBv1A8jOR5GQpMtO60EVyoJ6WYAMcNnY3a8dCPg/wCVWSta6Trj+lqQTx1EbZYXh8cgDmEHIIIyCD4IW2qr4QX2Uw1GnbiT+poiTFzHcx5wQPOCRj2I8K00W1Zxzi4ujJERQUCIiAjWu7y2x6Zra4ECcN5Ih5kOzfsTn6KsNFUBpbW6qmyamrPqSOd15CcgH53P1XW4y1Lq26WSxxk4kcZpAPBOBn4HOVsMaI2BjAAGAAAdgBgKUrZ14VSMkRFYuEREAREII6jCAIiIAiIgCIiAIiIAiIgIvqGV9g1DbtQUoP7HBk7RsCMYIPyMj5AV4Us0VVTxTxuD45Gh7HDoQRkH7FVPqCjFdZauAjLzGXt9njcfx+VJ+DtzNx0ZTskeTJSOMBz1wDkfggfRZ8dGeZWrJ6iIpOUIiKQU/wAW7FXQ179S0tbHHFBE2MsIIeDkgcpwQc8/f3Xx05JUS2Wllq5TLLI3nLiMHBOQD5IHdSLjZKY9EytBx6k8bD7jJP8AhcW1NEdso2AYAhYPwFCW2dmNv1NpERXLBERAal0q20NtqKl52jjJA8noB9yFDrBdLhZoqWourZn2u4ZeyVxL8EEgkHtv1HjcLpasEt0uNusFESZaqRr5P/SCds+wGSfgK3qnT1uqrG20VEAko44xGwHYjAwCD1B75HlIY3ktorLIo0miExOZLGHxuD2PAIc05BB7grJR28WK8aGldLTh9wsROSQP3RD3A6H3Gx74XTtF2pLpCH0koJAy6N2z2fI7j3Gyi3F0y+ntG+iIpICIiAIiIAiIgDQCQDuDsVrcFJTBc9RW/OGslZIG+NyD+AFstWjwuPp8RtQMB2MRJ+jx/wBVWXUVmriy4kRFBxhERSWK046kjSUQ81UefsVoUeBRU+P/AC2fwF1OOMfNowuAyWVEZ+M5H+Vx7a71LbSuHQws/wDoEXTpx/xNpERWLhqjlw1ZT0NVJE+irHiM8hcWhgJ9s9vdSEyNaWAuALjgBxAJPgZ6qM1kU+rNSQWGgc8U0R56qVm4AHU59ug8k+yq2+LpP74SHhDaZa6urNTVzf3yl0VOCOgzgkewADB8FWotK1UMNvoYaSnaGQQtDWNHYDYfXufcrdXZCPpFHK37Oz5PibIwh4BBBBBGQQeoI7hV9qjhrTVMz67T839NrwS8NaSIyfbG7SfbI9lYgWRVpRU1tERbT0yiXXq52KoFJqmgkjOcNqGjIcPII2I9wc+y79DW01dEJKKeOZnflO4+R1H1VnVlJTV1M+nrII6iBwwY5Wgg/Q/yq9vfC2me81OnKyS3VA3EZJMZPgEbgfcey55YpLnDaGVPpiufebsy1xMfJBUTc5IAibkDHk9AuXWS6m004NvtufVUwOBPCOcEeeYDH3AK4FruF4kqrleLdFNU0UUgNRG4l4a0k4yO2AOo6d9li21qjWFPdkvsl6iuwmEdPUQmPGfVbgHPg9M+y6i59nu9Ld6bnpZNwAZInEB7T7juPcbLoKVwPoREUkHPv8ImtFQfUex8TTK1zTgh43B/C1+Cv6ms1HdblURHEkAYZQ0hhcXAkA9M4GcBbGopPTsNe7OMQuH32/ypZwhhMOhbdzD/AHOd/wB3n/oqPpXI6j+ycIiIcYREQEK4rUv6rQl1AGfTaJfs8E/hQzS8wm0/QPBziMMPyCR/hWreqYXC11lG4NInidHv7ggH74VLcP5SLdUUU20tLMWFp6gH/uCp40dWB2miUInj36e6EhocScMAJJ9huVY1IjdLbUaq1jHaaKVkT6eEkyOyQx4GSTjcbkDKs7h/pRml7a9j3CWunOZ5QCAcdAzO+Bk9epJKi3BanNXcb7eJOYmSQRNJ8Elxx9OQK1lt4+NV7Ppz5ZtuvgREXQUCIiAIiIB/HQjsfla8VNFEHiGJjGPJLg0AAk9SQBv9VsIoIoq7WmgJIp33fSmYK1hL3UrThknclg6AnuOh7YK5GnL8y5h8FQz0bhHkSROBBJGxIB327jqFdHyq94iaIF2JutlxBeIsP/aeQTY6AnsfB79CufJhrcTXHk+M1EXD0zfDcmPpa1hhuMGWPjcOQkg4JA7EHqO3wurVVEVJTPnqJBHBGMucRnAzjoOvVYpqrN3adHH1xMIdN1G+DIWMHvk5P8K0tDUpotI2iB+xbTsJHuRk/wAqotYA3Kvs1ppzk1UzX4G+QSAD8YJKvSljjghbEwcrWAADwAMD8BU6zLM9JG0iIpOUwbgjI6Hos1r04LYY2n+4NAPzhbCksYBURrOjrrDr+ojszY5JLqA6KIAPIc475HbBBIJ2wT4V791VMRB44T/q+opR+nD+hPKMY9/7/rlKtpF8TcW2ca76HvMdLHVVuoKf+oRj1I4Hu9Mc3hhJAz2zjBWlT6i9ez18NaPRuNPC5kjXDHMcYyB533H1Gyndy4aWy63Wrr6+qrah1RIXhpeAI89gcEkDsOig+vNL0luqrDYrWHzXOXnDpXnDnsJwwOxsADnB7AK08bjtG0MiemT7g7Sim0RTSAYM8kkp265fgfgBfXiDrOLS1NEyCNs1wmyY2EkNaAcEvxvjOwA6lbuj6WWx6ZoKCrMZqIIyHekSW5yTsT16qtuM1FPLdqW5BhNM+EQlw3DXAkgHwCDt7greTcMarpVY/eVvhpx8U9RicPmNG+LOTEYuQEeA4HI+VcOmb3BqGyw3CiBYJAQ5r+sbhsQfOD37hfmM4w4k4A7lX3wgt1RQaPjNVGY3zyuma0jBDTgAkds4z8LLxsknJp8LZscYpNE6RFhzOc5zI2l5HU5wB7Z8rtSb4c7aXTNFgHlpDJGlhPQk5B9s+Vm1S010Jp8H5VTa64kz0Nznt9iZCTTkslnkGRzDqGjpgHYk9+itcdd+2CvzNrO11Nn1JXU9U145pXSscRtI0kkPB79cHwQVzZ5yS0aYopvZLdP8UbjHWxx3xsNRRvcBJJG0MfGCcZAGxA7g9ldccrJWBzSCwgEEdCCMghflGkpZa2pjpadhknlIZG1oyXk7fYdSV+lqJz6akhhc7nfHG1hPkgAE/hU8bK2nZpkwpv8AEhfFXTTowNS2cenWUpD5w0f7jRtkjuR0PkfCh2qLtHcdL0TocA1UoY5uf7COoPsCR9FdjntqYJIZgHxyAtcw9CCMEfYqgdPafkvOrP6IHSCjp55C4jq2MHBI8EgMHyQs8q3r6WxppO/hK6TQl4gEV1tF8pay40wHK1uCBgYwHkkZwSACAPhTbh5qqTUNtnZVxiK5UsnpzsALQTuAQDuMkEEdiCvlYuH1vsV6guFuq6yIRgh0BcC1xIxucAkb5x5wuNpEtHGHUQpMfpzETJjpz5bn65z+Ulj9EjBv/pdlrIiKhiY9cLJEQGJUD4g6TlvT6a5Wmf8ATXikwY35IDwDkAkdCDnB6bkHYqeL3spLJtMqg33iHFGaaSwwy1GOQVLQCM9M7Oxnv2Hso9SU9x0/r+zT6nqTNUVMRxK93MIyecBmTtsSOmwzsr3UU13pqm1PbRSukEdXES6CYDPI7G4PkHbI+D2Utt1b4XhkSe0feeRzWbNLzkDlBxhfOZkU8b4JQyQOH7mOAeCD5B6hQCn1LedKObQatoZpImfsZWR75A2Bz0d9cHypJFq6wyUclWy4Q4a3LmuBEnsAw7k57BaKSf07IzTWjKk0lYYaoVEdrg9QHIzkgH2aSR+FNKd2Yx5xjH/ZU5Ler1qXa1SR2WzGTkNXUODS4k4wH9STno3p3K68nC2tgiM9DqGq/qLRlr3ZYCfGQSR87qYNr+K0ZZWnpssypkZS07pJpGxRgjmkcQA0E7kk7BcZ2poC0x2mmnuEgOC6MckYPcmR+AfkAqvdL3C4XivqbbeaaW4XqlcQBPIBFGwbEuZ0BBxuAScgqewaddKCbzUvqRgYpoAY4R7EA5d9SAfC6sc0104Zpp1R1rDche7d65g9MtkMUkZIcA5pwcOGxHcELdewRSADYOB27AjfZYwCnp6YQUkbI4oxhscTQA0eMYwEHOZA54DQBgNBzjPUk+Vo+bCW9H1XJv1roblS+lcqWKpjByBIMkHyD1H0K6q16wEsyP4WT2jogtoi1usVqs7nS2+iigeQQZGgk47jJJIHwul6rQ9rTnLs4IGc491lM0FjxJ0IIJOwx8rgXPVVls8fLU10ZLRtFEed23bA2H1K536r/DsVUd6GRzGZmAYRkk52AHfPwqltdJebrqDUF30nOYzDUghoIaJwSTjJ2I2zg7HI9l1ZLnf9cc1DYKSSitjziWrlJGR3BeNsezck9yFZWkrBS6bs0VBSZcB+98rhgyOPUnx4A7AALGT92q+GGXIlog8t34gXKI0sFkhoZCOQznAxnYkEkgfQFSLQGljpqhmNQ717jVOD6ibfBO5ABO5AJcSTuSSVNNivd0bbe3ZzuVrRkiLzKgoeoiKAEREAREQsc26vpo7dUyXERGkZGXS+qAWhoGTkHYqjbXpr/wAXXC7XW20TKS2whwp4Wtx6sgGQzfYE9TjYZACmfGKsnljtlgo3O9e4Sjnx1LQQAD7EnJ/9qnNkttPZbVTUNK0NggYGg9MnqSfcnJJWuPGsj3xGibxq19Kg1Ba5qzTdZ+koKqUQtjmE8zSw04aP3RAEDod8NAGOvRTrSGtLRU6chnrbhBTzQxAVDXuwQ4DGQDuQQARjPVcDWeoajVNzbpjS7jL6h5amqB/aAD+4A/8AKO5HU4AXag4WaedHTiaGd8kTQyRwkLBIR1JA6ZPYY2WsE236cKukvy6Vn/VpLzrmvr7XdIrRJUkshlnJAc3AABIBAJAB327K1NE2rUlHVyVF7vUdwppIwGsbkgOzkPBwABjxnOVu3PQljr7VFQupGxxQgiJ0Qw+PPUg9Tk7nOcqLt4e6js5cNN6kkbB1EUxIA9sDIP2CRxyxu2iXKMlSZZu3soDrS2aldcZq6g1HBbbcIwBHKeQMIG5zgg5O+evZaJ09xGmPpyagpmN7uacHH0ZlZQ8LZ66YTamvlVXHOTG0kA//ACJJH0AVpe01SRCpO7IXbrpqq8XxlrtV+qazJw6eLLI2N7kkgHA8437LYrG6mptUCx3PUlRSvkAMU7nO9OTI2AIwRk5G/cYV1Way2+x0f6a1UsVPCNyGj9zj5JO5PuSuNxA0tDqW0PiwG1kQL6eXuHeCfB6Hxseyq8MlG/pKyr2Iq3hdVVZzd9SVlQzO7WgnP1Lj/C79l4caetjmSCjNTKDkOqHc+D5A2H4Wpwv1JNcqOe03cll3t/7JA7+5zAcAnyQdj52PdWD1XNRMskrps14I2xMDImhrGDAa0AAewA6LaREMzxeoigqEREAREQBERAERFIKm1/I2j4naXrKgtFPgDJ6Ah5B+xeCrGutE242uronSyQtqIzGZIjh7QRgkHyuLrvS8WprP6BIjq4nc8EpGeV2MEHG+CNjj2PZQui1RqvS0Qor7ZZa+KIBkdRGSSQNh+4Ag7dyAfK1xzULT4zRL2Srp8bZZqfTHFWz0FtdIYnUpMhc7JeS1+ScbDoDgDGytylrKesie6knjnaxxjc6Mh4DwcEHHcHqFQlTqqsm1lPqNtqqS5lOYooiCBEMYy44wcZJ7dVY3BCF7NHumkJeZ6qV4J77gE/Ugla+NNeziuDLF0myxEC1K2pbSUz5nDIaNgO57BcSC+SCX/Uawxk7gE5A9vK6pZFF02Vx4ZZE2lwk6D2UWuF1ke4tp3YYBu4dSfbwFnZLhM6oEUruYOBIJ6gjtnuFWOaLdIs/Gko+zJItOlqYZnyMhla/0yWP5Xg8rhjLTjoRkbe6285wqZt2rafSWrdUw3P1TBNVmaJkbckuPXqQBkEbnwpnNRavhjCLldG5xIpnaZ1Xa9V0LT6ckoiq2jYHbBJ+W5HyArNp5Y6mGOaF3OyRoLHDoQRkH7FU3qfW02s6Q2K2WWZzpy0xmSQB4IOQQAMADG5JxjKtPS1HNb9PW6krC19RTwMjkIORkDGAe+Oi4MjXs2uG0k0lfTuIiLIzCIiALzC9RAEREAREQBERAYpsi9CFiH8Uar9Hoe6uBw+SMRDfGS4gH8ZW3wzpP0eiLTEW4JhEh+XEu/wAhRnjpK6PSMMbf7ZKxjXe4DXO/lT6yQtgs9DHHs1kDAPo0D/C6vGX5Nky1BHt5hMlvmDdyBzADvg5URbu5ynrhzN3UQu8DKepc1n9pa6XH+PhX8nHe0dXhZVG4s1VvafhLq8P3DYwSfk7ALR5QI5Hjq04x2Kldop2U9MOXckcxPkrLx4tys28rKlFxR0CqirKaGn42tbVRRyRVlMHgPaCObBAIBGM5Z1VuBVRxHcaXiPpKpi/3HyiI/AkA/h5XRnWkzzcXWj562aLTxL01cGAMZUAQOLRgYBIxt7PH2VqtVYca2hlvtNU3aWCtDWEdgW838sCsqndzxNJHUA/cA/5XFkVMvLiNhERUMzHyV7heogCIiA//2Q==" alt="头像"></aside>
       <aside class="self right_1">
         <div>生日：1993.10.08</div>
         <div>联系方式：18058641352</div>
         <div>邮箱：1085370797@qq.com</div>
       </aside>
     </section>
-    <section class="parts parts2">
+    <div class="hline"><aside class="l"><span></span></aside><i class="circle"></i><aside class="r"><span></span></aside></div>
+    <section class="parts parts2 part2">
       <h3 class="title">技术背景</h3>
       <ul>
         <li class="item_li">
@@ -41,6 +42,7 @@
             <aside class="item_aside">flexBox</aside>
             <aside class="item_aside">@media</aside>
             <aside class="item_aside">@keyframes</aside>
+            <aside class="item_aside">Less</aside>
           </section>  
         </li>        
         <li class="item_li">
@@ -56,6 +58,7 @@
             <aside class="item_aside">IviewUi</aside>
             <aside class="item_aside">vux</aside>
             <aside class="item_aside">Echarts</aside>
+            <aside class="item_aside">node.js</aside>
           </section>
           <div class="imgWrap">
             <svg class="icon" aria-hidden="true">
@@ -77,6 +80,7 @@
             <aside class="item_aside">http</aside>
             <aside class="item_aside">VScode</aside>
             <aside class="item_aside">Sublime</aside>
+            <aside class="item_aside">mongodb</aside>
           </section>
         </li>           
       </ul>
@@ -105,7 +109,7 @@
           <aside class="left">2016.10-2018.5</aside>
           <aside class="right">
             <div>公司：浙江鸿程计算机系统有限公司</div>
-            <div>工作描述：主要负责浙江政务服务系统，浙江最多跑一次系统开发。使用vue + webpack + elementUi构建开发。
+            <div>工作描述：主要负责浙江政务服务系统，浙江最多跑一次系统。使用vue + webpack + elementUi构建开发。
             </div>
           </aside>
         </div>
@@ -127,10 +131,10 @@
             </aside>            
         </div>        
         <div class="exprience exprience4">
-          <aside class="left">2015.10-2016.10</aside>
+          <aside class="left">2015.6-2016.10</aside>
           <aside class="right">
-            <div>公司：艾括网络科技有限公司</div>
-            <div>工作描述：主要负责画室网站开发。使用JQuery + JQueryUI</div>
+            <div>公司：星网科技有限公司</div>
+            <div>工作描述：实习简单网页制作。</div>
           </aside>
         </div>
       </section>
@@ -142,18 +146,20 @@
         <li class="item_li">
           <h4>工作简介：</h4>
           <article>
-            刚入行时主要用JQuery + JQueryUI进行网站开发，第二家公司开始用elementUI，iviewUI，vux做基础UI，用Vue + webpack + vue-router + axios(vue全家桶) 构建开发web应用；用svn进行代码管理和团队协作。
-            后来用weTouch开发微信小程序和app。也曾尝试过DClude 5+进行app开发。用GitHub托管代码和团队协作。对node.js 和 mongodb 有一定了解。
+            刚入行时主要用JQuery+JQueryUI进行网站开发，在鸿程开始用ElementUI，IviewUI，Vux做基础UI，用Vue + webpack + vue-router + axios(vue全家桶) 构建开发web应用；用svn进行代码管理和团队协作。
+            到飞戎后用weTouch开发微信小程序和app，也曾用DClud5+进行app开发，用GitHub托管代码和团队协作。对node.js 和 mongodb 有一定了解。<a style="color:rgb(18, 150, 219);text-decoration:none;" target="_blank" href="https://github.com/tingshuai?tab=repositories">
+            Github：https://github.com/tingshuai?tab=repositories</a>
           </article>
         </li>
         <li class="item_li">
           <h4>性格分析：</h4>
           <article>
-            乐观、真诚；富有协作精神。可柔情似水，亦可刚毅似铁。爱好爬山，游泳，台球。用心做一个有颜值，有故事，有情调的男人。
-          </article>          
+            乐观、真诚；简洁，细腻；富有协作精神。可柔情似水，亦可刚毅如铁。爱好爬山，游泳，台球。用心做一个有颜值，有故事，有情调的男人。
+          </article>
         </li>
       </ul>
     </section>
+    <div class="hline hline2"><aside class="l"><span></span></aside><i class="circle"></i><aside class="r"><span></span></aside></div>
   </div>
 </template>
 
@@ -182,9 +188,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-  /* width: 80%; */
+  width: 80%;
+  min-width:500px;
   margin: 0 auto;
-  /* max-width: 1000px; */
+  max-width: 1100px;
   -webkit-user-select:none;
   -moz-user-select:none;
   -ms-user-select:none;
@@ -199,6 +206,9 @@ export default {
 section.parts{
   display: flex;
   margin:50px 0;
+}
+.parts1{
+  margin-bottom: 35px!important;
 }
 .title{
   width: 100%;
@@ -235,13 +245,60 @@ li{
     top: 17px;
     border-left: 1px solid #e2e2e2;
 }
+.part2{
+  margin-top: 30px!important;
+}
 .parts3 > .line{
     display: inline-block;
     bottom: -20px;
     position: absolute;
     right: 50%;
-    top: 47px;
+    top: 85px;
     border-left: 1px solid #e2e2e2;
+}
+.hline{
+  width: 100%;
+  display: flex;
+  height: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+.hline .l{
+  width: 1%;
+  flex-grow: 1;
+  text-align: right;
+  line-height: 10px;
+  display: inline-flex;
+  flex-direction: row-reverse;  
+}
+.hline .l > span,.hline .r > span{
+  border-top: 1px solid #e2e2e2;
+  width: 5%;
+  display: inline-block;
+}
+.hline .l > span{
+  margin-right: 40px;
+}
+.hline .r > span{
+  margin-left: 40px;
+}
+.hline2{
+  margin: 70px 0 120px 0;
+}
+.hline .r{
+  width: 1%;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 10px;
+  display: inline-flex;
+  flex-direction: row;  
+}
+.hline .circle{
+  border: 1px solid #e2e2e2;
+  height: 5px;
+  width: 5px;
+  background-color: #e2e2e2;
+  border-radius: 50%;
 }
 .item_li{
   width: 50%;
