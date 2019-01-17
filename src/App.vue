@@ -140,11 +140,94 @@
       </section>
       <div class="line"></div>
     </section>
+  
+    <section class="parts parts2 parts4">
+      <h3 class="title">主要项目</h3>
+      <ul>
+        <li class="item_li">
+          <h4 class="h4">库蚂蚁沟通</h4>
+          <article>
+          简介：一款在线即使沟通,需求办理、管理，报价系统.包括pc端和小程序。
+          <a style="color:rgb(18, 150, 219);text-decoration:none;" target="_blank" href="https://www.comayi.com/">
+           https://www.comayi.com/</a> or <a style="color:rgb(18, 150, 219);text-decoration:none;" target="_blank" href="https://www.china-cms.com/">
+           https://www.china-cms.com/</a><br/>
+           小程序：微信搜索  <i style="color:#444;">库蚂蚁沟通(先关注 库蚂蚁 或 飞戎智云有限公司 公众号)</i> 
+          </article>
+          <h4 style="display:inline-block;width:auto;">时间:</h4>&nbsp;&nbsp;
+          <span style="line-height: 34px;font-size: 14px;">2018-11</span>              
+          <h4>平台支持</h4>
+          <article>
+            PC端: IE10(含)及各大现代浏览器厂商<br/>
+            移动端: Android 4.4,iPhone4手机及以上 
+          </article>
+        </li>
+        <li class="item_li">
+          <h4 class="h4">绘图及图库管理工具：</h4>
+          <article>
+          简介：一款在线图库管理，修改工具。
+          <a style="color:rgb(18, 150, 219);text-decoration:none;" target="_blank" href="http://122.225.78.66:8003/whiteboard/">
+          http://122.225.78.66:8003/whiteboard/</a>
+          </article>
+          <h4 style="display:inline-block;width:auto;">时间:</h4>&nbsp;&nbsp;
+          <span style="line-height: 34px;font-size: 14px;">2018-4</span>             
+          <h4>平台支持</h4>
+          <article>
+            IE 10及以上,各大现代浏览器厂商
+          </article>
+        </li>
+        <li class="item_li">
+          <h4 class="h4">浙江政务服务网</h4>
+          <article>
+          简介：浙江政务服务网（部分）。
+          <a style="color:rgb(18, 150, 219);text-decoration:none;" target="_blank" href="http://www.zjzwfw.gov.cn/zjzw/item/list/sp_index.do?webId=1">
+          http://www.zjzwfw.gov.cn</a>
+          </article>
+          <h4 style="display:inline-block;width:auto;">时间:</h4>&nbsp;&nbsp;
+          <span style="line-height: 34px;font-size: 14px;">2017-5</span>           
+          <h4>平台支持</h4>
+          <article>
+            IE 9及以上,各大现代浏览器厂商
+          </article>
+        </li>      
+        <li class="item_li">
+          <h4 class="h4">中国美术学院-手工艺术学院 （官网） </h4>
+          <article>
+          简介：中国美术学院-手工艺术学院 （官网）。
+          <a style="color:rgb(18, 150, 219);text-decoration:none;" target="_blank" href="http://www.zjzwfw.gov.cn/zjzw/item/list/sp_index.do?webId=1">
+          http://www.zjzwfw.gov.cn</a>
+          </article>
+          <h4 style="display:inline-block;width:auto;">时间:</h4>&nbsp;&nbsp;
+          <span style="line-height: 34px;font-size: 14px;">2016-5</span>          
+          <h4>平台支持:</h4>
+          <article>
+            IE 9及以上,各大现代浏览器厂商
+          </article>
+        </li>   
+        <li class="item_li">
+          <h4 class="h4">白塔岭画室（官网） </h4>
+          <article>
+          简介：杭州白塔岭艺考培训学校官网。
+          <a style="color:rgb(18, 150, 219);text-decoration:none;" target="_blank" href="http://www.btl2002.com/">
+          http://www.btl2002.com/</a>
+          </article>
+          <h4 style="display:inline-block;width:auto;">时间:</h4>&nbsp;&nbsp;
+          <span style="line-height: 34px;font-size: 14px;">2016-10</span>          
+          <h4>平台支持:</h4>
+          <article>
+            IE 9及以上,各大现代浏览器厂商
+          </article>
+        </li>     
+        <li class="item_li">
+          <h4 class="h4" style="">未完待续......</h4>
+        </li>                         
+      </ul>
+    </section>
+
     <section class="parts parts2 parts4">
       <h3 class="title">个人简介</h3>
       <ul>
         <li class="item_li">
-          <h4>工作简介：</h4>
+          <h4>经验说:</h4>
           <article>
             刚入行时主要用JQuery+JQueryUI进行网站开发，在鸿程开始用ElementUI，IviewUI，Vux做基础UI，用Vue + webpack + vue-router + axios(vue全家桶) 构建开发web应用；用svn进行代码管理和团队协作。
             到飞戎后用weTouch开发微信小程序和app，也曾用DClud5+进行app开发，用GitHub托管代码和团队协作。对node.js 和 mongodb 有一定了解。<a style="color:rgb(18, 150, 219);text-decoration:none;" target="_blank" href="https://github.com/tingshuai?tab=repositories">
@@ -227,6 +310,7 @@ li{
 .parts2{
   flex-wrap: wrap;
 }
+
 .parts2 > ul{
   width: 100%;
   display: flex;
@@ -445,8 +529,15 @@ ul > li.item_li:nth-child(2n-1) > section{
     width: 100%;
     font-size: 14px;
     color: #7d7d7d;
-    text-align: justify;
+    text-align: left;
     line-height: 25px;
+}
+.parts4 ul>li{
+    margin: 20px 0;
+}
+.parts4 h4.h4{
+  font-size: 17px;
+  color: #3e3e3e;
 }
 </style>
 <style>
