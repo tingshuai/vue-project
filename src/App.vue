@@ -172,7 +172,9 @@
           <span style="line-height: 34px;font-size: 14px;">2018-4</span>             
           <h4>平台支持</h4>
           <article>
-            IE 10及以上,各大现代浏览器厂商
+                IE 10及以上,各大现代浏览器厂商<br/>
+                测试账号及密码：账：13500000000
+                密：123456
           </article>
         </li>
         <li class="item_li">
@@ -193,8 +195,8 @@
           <h4 class="h4">中国美术学院-手工艺术学院 （官网） </h4>
           <article>
           简介：中国美术学院-手工艺术学院 （官网）。
-          <a style="color:rgb(18, 150, 219);text-decoration:none;" target="_blank" href="http://www.zjzwfw.gov.cn/zjzw/item/list/sp_index.do?webId=1">
-          http://www.zjzwfw.gov.cn</a>
+          <a style="color:rgb(18, 150, 219);text-decoration:none;" target="_blank" href="http://www.sgysxy.com/index.html">
+          http://www.sgysxy.com/index.html</a>
           </article>
           <h4 style="display:inline-block;width:auto;">时间:</h4>&nbsp;&nbsp;
           <span style="line-height: 34px;font-size: 14px;">2016-5</span>          
